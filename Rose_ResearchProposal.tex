@@ -9,11 +9,13 @@
 \documentclass[apj, iop]{emulateapj}
 \usepackage{graphicx}% Include figure files
 \usepackage{color}%for preprints
-\usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor} %allows for gray links
+\usepackage[colorlinks, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
 \usepackage{cleveref} %this allows for \cref{}: http://texblog.org/2013/05/06/cleveref-a-clever-way-to-reference-in-latex/
 \usepackage{natbib}
 
 \newcommand{\sn}{SNIa}
+\newcommand{\todo}[1]{\textbf{\textcolor{red}{#1}}}
 
 % running headers for journal/emulate
 \shorttitle{Testing the Cosmological Principle} 
@@ -60,22 +62,24 @@ $0.1$ in redshift, \sn{} need to have very accurate distance measurements. \sn{}
 distances are already corrected for light curve width and color variations, but
 further new corrections appear to be important distance accuracy, such as
 correlations with host galaxy properties or even the local environment near the
-explosion.
+explosion. Procuring these tests will \todo{finish my thesis statement.}
 
 \section{Testing the Cosmological Principle}\label{testing-the-cosmological-principle}
 
 The excepted cosmological model, $\Lambda$CDM, works under a testable assumption
 that the universe is isotropic and homogeneous on large scales, scales greater
 than the size of the present day first acoustic peaks seen in the CMB.
-%(\cite{Scrimgeour12} says greater-equal 100h$^{-1}$Mpc in ΛCDM).  We already
+%(\cite{Scrimgeour12} says greater-equal 100h$^{-1}$Mpc in ΛCDM).   
+We already
 know that gravity breaks this isotropic condition on small scales and produces
 peculiar motion of galaxies. Specific theories of inflation (like in
 \cite{MersiniHoughton:2008io}) produce a preferred direction in our visible
 universe due to a slight curvature in space-time from pre-inflation
-interactions. Observationally, if this preferred direction exists, we expect to
-see a  uniform bulk velocity flow that extends outside the local group and into
-what $\Lambda$CDM would predict to be a purely isotropic Hubble expansion. Such
-a large-scale asymmetry has been called a `dark flow'.
+interactions. \todo{go into theory detail?} Observationally, if this preferred
+direction exists, we expect to see a  uniform bulk velocity flow that extends
+outside the local group and into what $\Lambda$CDM would predict to be a purely
+isotropic Hubble expansion. Such a large-scale asymmetry has been called a `dark
+flow'. \todo{by whom, Kashlinsky's first paper or his ``review'' paper?}
 
 \subsection{Previous Tests}\label{previous-tests}
 
@@ -149,6 +153,8 @@ These large surveys are being leveraged to reduce the statistical uncertainties 
 measurements. But we also plan to reduce the systematic error floor by studying the
 local environments of SNIa.
 
+\todo{talk about difficulties and solutions}
+
 \section{Standardizing type Ia
 supernova}\label{standardizing-type-ia-supernova}
 
@@ -186,6 +192,8 @@ critical in improving the estimate of the Hubble constant.
 %What is visible is at best at a $2\sigma$ level. %Jones15 quotes 2-4\sigma significance
 
 \subsection{Using HST}\label{using-hst}
+
+\todo{combine HST and future work sections}
 
 I am currently working with Hubble Space Telescope (HST) images of host galaxies
 of \sn{} found during SDSS-II Supernova Survey. HST's small angular resolution
@@ -249,6 +257,10 @@ around 60 in HST's archive. There is a large number of targets that still could 
 observed to increase the data set and improve our statistical uncertainties.
 Infrared photometry could also take advantage of ground based adaptive optic
 telescopes.
+
+\todo{talk about difficulties and solutions}
+
+\todo{conclusion}
 
 % A slit on the SN location. (idk if this is done, or useful?)
 

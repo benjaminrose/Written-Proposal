@@ -51,6 +51,12 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -136,6 +142,7 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT what_dataset_size_v_velocity.pdf
 INPUT ./what_dataset_size_v_velocity.pdf
 INPUT ./what_dataset_size_v_velocity.pdf
@@ -150,6 +157,7 @@ INPUT Rose_ResearchProposal.bbl
 INPUT Rose_ResearchProposal.aux
 INPUT ./Rose_ResearchProposal.out
 INPUT ./Rose_ResearchProposal.out
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

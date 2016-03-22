@@ -13,9 +13,12 @@
 \usepackage[colorlinks, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
 \usepackage{cleveref} %this allows for \cref{}: http://texblog.org/2013/05/06/cleveref-a-clever-way-to-reference-in-latex/
 \usepackage{natbib}
+\usepackage{amsmath}  %needed for $\text{}$ and aastex
 
 \newcommand{\sn}{SNIa}
 \newcommand{\todo}[1]{\textbf{\textcolor{red}{#1}}}
+\newcommand{\lcdm}{$\Lambda$CDM}     %should use ensure math or something.
+\newcommand{\kms}{\ensuremath{~\text{km s}^{-1}}}
 
 % running headers for journal/emulate
 \shorttitle{Testing the Cosmological Principle} 
@@ -83,43 +86,53 @@ flow'. \todo{by whom, Kashlinsky's first paper or his ``review'' paper?}
 
 \subsection{Previous Tests}\label{previous-tests}
 
-The universe's isotropic nature has recently been tested with surveys of nearby
-galaxies \citep{Ma13}, kinetic Sunyaev-Zel\'{d}ovich (kSZ) effect on distant
-clusters \citep{Kashlinsky10,Planckdf}, and with \sn{} data sets \citep[and others as seen in \Cref{t:review}]{Dai11,Rathaus13}.
-Most searches did not see much of a bulk flow but some saw a bulk flow of
-greater then $1000$ km s$^{-1}$ out to redshifts of $z = 0.25$. This measurement
-cannot be explained by $\Lambda$CDM alone but needs an inflation theory that
-predicts this cosmic anisotropy.  A summary of the results from past searches can be found in
-\Cref{t:review}.
+The universe's isotropic nature has been tested, over the last decade, with
+surveys of nearby galaxies \citep{Ma13}, kinetic Sunyaev-Zel\'{d}ovich (kSZ)
+effect on distant clusters \citep{Kashlinsky10,Planckdf}, and with \sn{} data
+sets \citep[and others as seen in \Cref{t:review}]{Dai11,Rathaus13}. Most
+searches did not see a bulk flow that was significantly larger then allowed by
+\lcdm{} but some saw a bulk flow of greater then $1000 \kms{}$ out to
+redshifts of $z = 0.25$. This measurement cannot be explained by $\Lambda$CDM
+alone but needs an inflation theory that predicts this cosmic anisotropy.  A
+summary of the results from past searches can be found in \Cref{t:review}.
+\todo{remove both table references here.}
 
-% kaslinskly plot of measuremnts and what LCDM can allow.
+\todo{kaslinskly plot of measurements and what LCDM can allow.}
+
+\todo{other plot from aps presentation}
 
 \begin{figure}
 	\includegraphics[width=3.2in]{what_dataset_size_v_velocity.pdf} 
-	\caption{The number of \sn{} needed to see a given dark flow
-	velocity, a cosmic scale bulk flow, out to a given redshift. It is seen that
-	Union2.1 can detect flows only out to $z=0.05$ and nearly 10$^4$ \sn{} would be needed to
-	see a dark flow out to $z=0.3$. Taken from \cite{Mathews16}}
+    \caption{The number of \sn{} needed to see a given dark flow velocity, a
+	cosmic scale bulk flow, out to a given redshift. It is seen that Union2.1 
+	can detect flows only out to $z=0.05$ and nearly 10$^4$ \sn{} would be 
+	needed to see a dark flow out to $z=0.3$. Taken from \cite{Mathews16}}
 	\label{f:sn-needed} 
 \end{figure}
 
-In \cite{Mathews16} we developed a new method to search for cosmological asymmetries
-and used it to analyze the Union2.1 \citep{Suzuki12} \sn{} sample. We found a mild
-bulk flow of $325 \pm 54$ km s$^{-1}$ out to $z = 0.05$. This is consistent with
-most past measurements and does not contradict $\Lambda$CDM. From further
-analysis, we determined that the loss of signal past $z \sim 0.05$ was not
-from the lack of a dark flow, but from the increase of the
-uncertainty in the distance measurements. An order of magnitude reduction of
-distance modulus error is needed to see out to $z \sim 0.3$. This is unattainable wth
-the current data sets, but we propose two ways to attack this problem. First, furture
-data sets will reduce the statistical error in \sn{} distances over large parts of the sky.
-This relationship is
-illustrated  in \Cref{f:sn-needed}. This large sample size should be achievable
-with the Large Synoptic Survey Telescope (LSST) and its uniform
-photometric reliability of 10 mmag across the visible sky
-\citep{Ivezic08}. A large, uniform data set will push the statistical errors at $z\sim 0.3$ to
-the systematic floor. Second, we propose to lower the systematic floor by including the
-properties of the local host environment in correcting \sn{} distances.
+My work on initial tests of the Cosmological Principle can be found in
+\cite{Mathews16}. I worked heavily on developed a new method to search for
+cosmological asymmetries using the angular separation of a \sn{} and the
+direction of the dark flow. We were able to minimize the data fitting both
+\lcdm{} cosmological variables and  an bulk flow. If the same bulk flow is
+visible across all redshifts, then we have found the dark flow signal. This
+analysis was performed on the Union2.1 \citep{Suzuki12} \sn{} sample. We found a
+mild bulk flow of $325 \pm 54$ km s$^{-1}$ out to $z = 0.05$. This is consistent
+with most past measurements and does not contradict \lcdm{}.
+
+From further analysis, we determined that the loss of signal past $z \sim 0.05$
+was not from the lack of a dark flow, but from the increase of the uncertainty
+in the distance measurements. An order of magnitude reduction of distance
+modulus error is needed to see out to $z \sim 0.3$. This is unattainable with
+the current data sets, but we propose two ways to attack this problem. First,
+further data sets will reduce the statistical error in \sn{} distances over
+large parts of the sky. This relationship is illustrated in \Cref{f:sn-needed}.
+This large sample size should be achievable with the Large Synoptic Survey
+Telescope (LSST) and its uniform photometric reliability of $10 ~\text{mmag}$
+across the visible sky \citep{Ivezic08}. A large, uniform data set will push the
+statistical errors at $z\sim 0.3$ to the systematic floor. Second, we propose to
+lower the systematic floor by including the properties of the local host
+environment in correcting \sn{} distances.
 
 \subsection{Future Tests}\label{future-tests}
 

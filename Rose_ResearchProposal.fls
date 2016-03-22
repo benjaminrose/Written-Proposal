@@ -80,6 +80,16 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/cleveref/cleveref.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/cleveref/cleveref.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT Rose_ResearchProposal.aux
 INPUT Rose_ResearchProposal.aux
 OUTPUT Rose_ResearchProposal.aux

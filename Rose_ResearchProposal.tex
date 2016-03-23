@@ -14,6 +14,7 @@
 \usepackage{cleveref} %this allows for \cref{}: http://texblog.org/2013/05/06/cleveref-a-clever-way-to-reference-in-latex/
 \usepackage{natbib}
 \usepackage{amsmath}  %needed for $\text{}$ and aastex
+\usepackage{verbatim}     %for multiline comments with \begin{comment}
 
 \newcommand{\sn}{SNIa}
 \newcommand{\todo}[1]{\textbf{\textcolor{red}{#1}}}
@@ -82,7 +83,9 @@ interactions. \todo{go into theory detail?} Observationally, if this preferred
 direction exists, we expect to see a  uniform bulk velocity flow that extends
 outside the local group and into what $\Lambda$CDM would predict to be a purely
 isotropic Hubble expansion. Such a large-scale asymmetry has been called a `dark
-flow'. \todo{by whom, Kashlinsky's first paper or his ``review'' paper?}
+flow'. 
+\todo{by whom, Kashlinsky's first paper or his ``review'' paper?}
+\todo{define the difference between dark and bulk?}
 
 \subsection{Previous Tests}\label{previous-tests}
 
@@ -136,6 +139,7 @@ environment in correcting \sn{} distances.
 
 \subsection{Future Tests}\label{future-tests}
 
+\begin{comment}
 Testing the Cosmological Principle can and should be continued. In search for a
 cosmic anisotropy, studies have used galactic surveys, the kinetic Sunyaev-
 Zel\'dovich effect, and SNIa, but another possibility is using baryon acoustic
@@ -145,26 +149,33 @@ The BAO analysis will follow a similar procedure as developed in
 \cite{Mathews16} for SNIa. The test requires a
 data set with significant sky coverage, and this is possible with SDSS's eBOSS
 and eventually DESI.
+\todo{This might want to be removed, do I want to open up questions about BAO?}
+\end{comment}
 
-% Another alternative is future surveys like WFIRST and LSST. There will still be 
-% a long wait for data from either of these surveys. 
-% Later it can be done with WFIRST (with its some large sky fraction.)
-% and/or LSST data.
+At the end of \cite{Mathews16}, we suggest that LSST will produce a data set
+that is able to search for the cosmic dark flow. Detailed simulations of LSST-
+like data sets are critical in understanding the limits of the survey when
+applied to the dark flow problem. These tests will show if the combination of
+LSST's sensitivity, cadence, and sky coverage will be sufficient to test for
+isotropic expansion as predicted by \lcdm{} and what limits can be placed on the
+dark flow. WFIRST may also be able to help in this measurement, however, its sky
+coverage will be limited compared with LSST. Simulations of the combined LSST
+and WFIRST data sets will produce useful insights into optimum future surveys.
 
-\cite{Mathews16} shows that LSST will produce a data set that is able to search for
-the cosmic dark flow. Detailed simulations of LSST-like data sets are critical in understanding
-the limits of the survey when applied to the dark flow problem. These tests will show if the combination of
-LSST's sensitivity, cadence, and sky coverage will be sufficient to test
-for isotropic expansion as predicted by $\Lambda$CDM and what limits can be
-placed on the dark flow.
-WFIRST may also be able to help in this measurement, however, its sky
-coverage will be limited compared with LSST.
-Simulations of the combined LSST and WFIRST data sets will produce useful insights into
-optimum future surveys.
+Since the analysis method is written, getting a good simulated LSST \sn{} data
+set is the hardest part. Telescope uncertainties and project goals have been
+stated, but these need to be transitioned, and any errors propagated, into
+positions,  redshifts, and distances. The hardest part will be redshift. The
+community will  not be able to get a spectra of the hosts at the rate that LSST
+will find \sn,  reducing the rate of cosmologically usable \sn. Also with follow
+up telescopes  in different locations then LSST, the footprint of the
+cosmologically useful \sn{} might be different then LSST's footprint. These and
+others survey complexities  will need to be taken into account for any accurate
+modeling of what can be done with LSST \sn{}.
 
-These large surveys are being leveraged to reduce the statistical uncertainties in distance
-measurements. But we also plan to reduce the systematic error floor by studying the
-local environments of SNIa.
+Large surveys are being leveraged to reduce the statistical uncertainties
+in distance measurements. But we also plan to reduce the systematic error floor
+by studying the local environments of SNIa.
 
 \todo{talk about difficulties and solutions}
 

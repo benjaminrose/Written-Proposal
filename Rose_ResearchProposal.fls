@@ -90,6 +90,8 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT Rose_ResearchProposal.aux
 INPUT Rose_ResearchProposal.aux
 OUTPUT Rose_ResearchProposal.aux

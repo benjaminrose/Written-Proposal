@@ -155,15 +155,15 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT what_dataset_size_v_velocity.pdf
 INPUT ./what_dataset_size_v_velocity.pdf
 INPUT ./what_dataset_size_v_velocity.pdf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
-INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT SN2635-combined-inverted.pdf
 INPUT ./SN2635-combined-inverted.pdf
 INPUT ./SN2635-combined-inverted.pdf
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT Rose_ResearchProposal.bbl
 INPUT Rose_ResearchProposal.bbl
 INPUT Rose_ResearchProposal.aux

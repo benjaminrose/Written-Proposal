@@ -19,11 +19,13 @@
 \newcommand{\sn}{SNIa}
 \newcommand{\todo}[1]{\textbf{\textcolor{red}{#1}}}
 \newcommand{\lcdm}{$\Lambda$CDM}     %should use ensure math or something.
+\newcommand{\Hubble}{\ensuremath{\text{H}_0}}
 \newcommand{\kms}{\ensuremath{~\text{km s}^{-1}}}
 
 % running headers for journal/emulate
 \shorttitle{Testing the Cosmological Principle} 
 \shortauthors{Rose}
+% \slugcomment{\today}
 
 % adds date to aastex versions (emulate has this by default)
 % \slugcomment{draft version: \today}
@@ -33,9 +35,11 @@
 
 \title{Precision Cosmology: Testing the Cosmological Principle \\with Improved Supernova Distances}
 
-\author{Benjamin Rose, {\it advised by} P. M. Garnavich}
+\author{Benjamin Rose \\{\it advised by} P. M. Garnavich}
 \affil{University of Notre Dame, Center for Astrophysics, Notre Dame, IN 46556}
 \email{brose3@nd.edu}
+
+% \author{{\it advised by} P. M. Garnavich}
 
 % \and
 % \author{{\it advised by} P. M. Garnavich}
@@ -99,10 +103,10 @@ Simple tests can be constructed to see if there is a consistent cosmology in all
 directions. For these to reach out to distances of gigaparsecs, or of order
 $0.1$ in redshift, \sn{} need to have very accurate distance measurements. \sn{}
 distances are already corrected for light curve width and color variations, but
-further new corrections appear to be important distance accuracy,\todo{what?}
-such as correlations with host galaxy properties or even the local environment
-near the explosion. Procuring these tests will advance both supernova cosmology
-and cosmology as a whole. 
+further new corrections appear to be improve distance accuracy, such as
+correlations with host galaxy properties or even the local environment near the
+explosion. Procuring these tests will advance both supernova cosmology and
+cosmology as a whole.
 
 \section{Testing the Cosmological Principle}\label{testing-the-cosmological-principle}
 
@@ -122,16 +126,17 @@ isotropic Hubble expansion. Such a large-scale asymmetry has been called a
 
 \subsection{Previous Tests}\label{previous-tests}
 
-The universe's isotropic nature has been tested, over the last decade, with
-surveys of nearby galaxies \citep{Ma13}, kinetic Sunyaev-Zel\'{d}ovich (kSZ)
-effect on distant clusters \citep{Kashlinsky10,Planckdf}, and with \sn{} data
-sets \citep[and others as seen in \Cref{t:review}]{Dai11,Rathaus13}. Most
+The universe's isotropic nature has been intensely tested, over the last half a
+decade, with surveys of nearby galaxies \citep{Ma13}\todo{add wiltshire 2013,
+they use galaxies but did not find anything}, kinetic Sunyaev- Zel\'{d}ovich
+(kSZ) effect on distant clusters \citep{Kashlinsky10,Planckdf}, and with \sn{}
+data sets \citep[and others as seen in \Cref{t:review}]{Dai11,Rathaus13}. Most
 searches did not see a bulk flow that was significantly larger then allowed by
-\lcdm{} but some saw a bulk flow of greater then $1000 \kms{}$ out to
-redshifts of $z = 0.25$. This measurement cannot be explained by $\Lambda$CDM
-alone but needs an inflation theory that predicts this cosmic anisotropy.  A
-summary of the results from past searches can be found in \cref{t:review}.
-\todo{remove both table references here.}
+\lcdm{} but some saw a bulk flow of greater then $1000 \kms{}$ out to redshifts
+of $z = 0.25$. This measurement cannot be explained by $\Lambda$CDM alone but
+needs an inflation theory that predicts this cosmic anisotropy.  A summary of
+the results from past searches can be found in \cref{t:review}. \todo{remove
+both table references here.}
 
 \todo{referance \cref{f:ksz}}
 
@@ -255,6 +260,7 @@ reduction in this can be seen if the properties of the \sn{}'s host galaxy are
 accounted for. Host mass \citep{Childress13} and host metallicity
 \citep{Hayden13} have been seen to reduce this intrinsic scatter.
 
+\todo{talk about \Hubble{} fight in this paragraph}
 The idea that these global properties directly effect the \sn{} is a bit of a
 stretch, so the community has started to look at the local environment around
 the \sn{}. \cite{Rigault13} looked at \sn{} form the Nearby Supernova Factory
@@ -284,16 +290,17 @@ HST images of the host galaxy of SN 2005fw seen in \cref{f:galaxy-compare}.
 \todo{Describe our HST data. z range, from stripe 82 (elcliptic), filters,
 exposure times, angular resolution}
 
-\todo{Take out a few of the instances of ``will.''}
-This set of HST images will give us a few variables for the local environment
-that we will be able to use for corrections to the \sn{}'s absolute brightness.
-The first being the \sn{}'s fractional pixel rank (FPR). The FPR is the ranked
-fraction, by brightness, of the pixel at the \sn{}'s position relative to the
-rest of the galaxy. This gives us a proxy for star formation. Another variable
-would be the color of the \sn{}'s pixel. These two variables will be compared to
-the residuals on the Hubble diagram to look for a bias. Further analysis of sub-
-sets will be done. We will be able to answer questions like whether there is a
-bias for \sn{} in clumpy regions of elliptical galaxies.
+After processing and analysis, the HST images will produce several variables
+describing the local environments of the \sn{}. These variables will be compared
+to the \sn{}'s absolute brightness and residual on the Hubble diagram for
+correlations. The first of these variables being the \sn{}'s fractional pixel
+rank (FPR). The FPR is the ranked fraction, by brightness, of the pixel at the
+\sn{}'s position relative to the rest of the galaxy. This gives us a proxy for
+star formation. Another variable would be the color of the \sn{}'s pixel. Color
+can give a idea of the type of stars in that region. Further analysis of subsets
+will be done. We will be able to answer questions like whether there is a bias
+for \sn{} in clumpy regions of elliptical galaxies.
+\todo{intro figure of fpr of one galaxy}
 
 % F derivative R - (second derivative) - finds things that do not match 
 % its neighbors (nor follows a nice smooth slope like ellipticals)
@@ -371,14 +378,14 @@ environment.
 \cite{Dai11} & SN Ia & 132 & $< 0.05$ & $< 145$ &  $188 \pm 120$  &  $290 \pm 39$ & $20 \pm 32$ \\
                                       & & 425 & $> 0.05$ & $> 145$ &  \nodata     &   \nodata    &   \nodata   \\
 \tableline
-\cite{Weyant11} & SN Ia & 112 & $< 0.028$ & $< 85 $ & $538 \pm  86$ & $250 \pm 100$ & $36 \pm 11$ \\ 
-\tableline
+% \cite{Weyant11} & SN Ia & 112 & $< 0.028$ & $< 85 $ & $538 \pm  86$ & $250 \pm 100$ & $36 \pm 11$ \\ 
+% \tableline
 \cite{Ma11}   & \begin{tabular}{c}galaxies \\ \& SN Ia \end{tabular} & 4536 & $< 0.011 $ & $< 33$ &    $340 \pm 130$ & $285 \pm 23 $ &$ 9 \pm 19$ \\ 
 \tableline
 \cite{Colin11} & SN Ia & 142 & $< 0.06$ & $< 175$ & $260 \pm 130$ & $298 \pm 40 $ &$ 8 \pm 40$ \\
 \tableline
-\cite{Turnbull12} & SN Ia & 245 & $< 0.05$ & $< 145$ & $245 \pm  76$ & $319 \pm 18 $ &$ 7 \pm 14$ \\ 
-\tableline
+% \cite{Turnbull12} & SN Ia & 245 & $< 0.05$ & $< 145$ & $245 \pm  76$ & $319 \pm 18 $ &$ 7 \pm 14$ \\ 
+% \tableline
 \cite{Feindt13} & SN Ia  & 128 & 0.015 - 0.035 & 45 -108 & $243 \pm  88$ & $298 \pm 25$ &$15 \pm 20$ \\ 
                                              & & 36  & 0.035 - 0.045 & 108 - 140 & $452 \pm 314$ & $302 \pm 48$ & $ -12 \pm 26$ \\
                                              & & 38  & 0.045 - 0.060 & 140 - 188 & $650 \pm 398$ & $359 \pm 32$ & $ 14 \pm 27$ \\

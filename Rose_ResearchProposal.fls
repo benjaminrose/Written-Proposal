@@ -155,10 +155,16 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT Kashlinsky2010.pdf
+INPUT ./Kashlinsky2010.pdf
+INPUT ./Kashlinsky2010.pdf
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT Rathaus2013.pdf
+INPUT ./Rathaus2013.pdf
+INPUT ./Rathaus2013.pdf
 INPUT what_dataset_size_v_velocity.pdf
 INPUT ./what_dataset_size_v_velocity.pdf
 INPUT ./what_dataset_size_v_velocity.pdf
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT SN2635-combined-inverted.pdf
@@ -172,6 +178,7 @@ INPUT ./Rose_ResearchProposal.out
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
@@ -187,6 +194,9 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb

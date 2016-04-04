@@ -215,13 +215,12 @@ set is the hardest part. Telescope uncertainties and project goals have been
 stated, but these need to be transitioned, and any errors propagated, into
 positions, redshifts, and distances. The hardest part will be redshift. The
 community will not be able to get a spectra of the hosts at the rate that LSST
-will find \sn, reducing the rate of cosmologically usable \sn. \todo{talk about
-ML photo-z, photometric redshift estimation (Ball et al. 2007; Gerdes et al.
-2010; Kind & Brunner 2013)} Also with follow up telescopes in different
-locations then LSST, the footprint of the cosmologically useful \sn{} might be
-different then LSST's footprint. These and others survey complexities will need
-to be taken into account for any accurate modeling of what can be done with LSST
-\sn{}.
+will find \sn, reducing the rate of cosmologically usable \sn. Though machine
+learning is ever increasing the photometric redshift measurements, e.g.
+\cite{Kind13}. Also with follow up telescopes in different locations then LSST,
+the footprint of the cosmologically useful \sn{} might be different then LSST's
+footprint. These and others survey complexities will need to be taken into
+account for any accurate modeling of what can be done with LSST \sn{}.
 
 \begin{comment}
 This project is going to push the edge of detection. To get this correct, the
@@ -264,12 +263,13 @@ accounted for. Host mass \citep{Childress13} and host metallicity
 The idea that these global properties directly effect the \sn{} is a bit of a
 stretch, so the community has started to look at the local environment around
 the \sn{}. \cite{Rigault13} looked at \sn{} form the Nearby Supernova Factory
-and looked at H$_{\alpha}$ within a 1 kpc radius of each \sn{}. They found  a
+and looked at H$_{\alpha}$ within a 1 kpc radius of each \sn{}. They found a
 bias in standardized brightness of the \sn{}. Also \cite{Rigault15, Jones15}
 looked at \sn{} in the Constitution sample with host galaxy data from {\it
-GALEX} but they disagree on whether there is or is not a bias. \todo{I can do
-better then  this next sentence. Flesh out the fight a bit, how this effect
-\Hubble{} and what my work will do to help.} Sorting this controversy out is
+GALEX} but they disagree on whether there is or is not a bias. %\todo{I can do
+%better then  this next sentence. Flesh out the fight a bit, how this effect
+%\Hubble{} and what my work will do to help.} 
+Sorting this controversy out is
 critical in improving the estimate of the Hubble constant.
 
 \subsection{Getting Closer in with HST}\label{hst}
@@ -302,6 +302,7 @@ star formation. Another variable would be the color of the \sn{}'s pixel. Color
 can give a idea of the type of stars in that region. Further analysis of subsets
 will be done. We will be able to answer questions like whether there is a bias
 for \sn{} in clumpy regions of elliptical galaxies.
+
 \todo{intro figure of fpr of one galaxy}
 
 % F derivative R - (second derivative) - finds things that do not match 
@@ -334,24 +335,19 @@ The angular resolution would not be as necessary if we observed host galaxies of
 local \sn{}, but local observations also has issues. First, the number of \sn{}
 is proportional to the volume for which you are looking, and there is more
 volume at higher redshift. Secondly, there are questions about whether \sn{} are
-the same across cosmic time \todo{(find citation)}, so these local environment
-test should be done for as wide a range of redshifts as possible. For these
-reasons, SDSS's $z \sim 0.1$ is a good redshift to perform these tests. At this
-redshift, HST's high angular resolution is the best for observing a true local
-environment.
-
-\todo{what todo about low s/n? Simulations!}
+the same across cosmic time, so these local environment test should be done for
+as wide a range of redshifts as possible. For these reasons, SDSS's $z \sim 0.1$
+is a good redshift to perform these tests. At this redshift, HST's high angular
+resolution is the best for observing a true local environment.
 
 \section{Conclusion}
 
-\todo{conclusion}
-
-
-% A slit on the SN location. (idk if this is done, or useful?)
-
-% Ground based observations of hosts
-
-% More HST: filters of these, more statistics, . . .
+\sn{} have been a standard cosmological tool for decades. In this time their
+properties have been continually refined. Now \sn{} detections are numerous
+enough and  precise enough to start testing the Cosmological Principle. Towards
+this goal I will also understand the effects of future large scale surveys, and
+work on increasing \sn{} precision by examining local environments with the
+Hubble Space Telescope.
 
 \bibliographystyle{apj}
 \bibliography{2016-02-07-w-ResearchProposal}

@@ -166,13 +166,11 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT SN2635-combined-inverted.pdf
 INPUT ./SN2635-combined-inverted.pdf
 INPUT ./SN2635-combined-inverted.pdf
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT Rose_ResearchProposal.bbl
 INPUT Rose_ResearchProposal.bbl
 INPUT Rose_ResearchProposal.aux
 INPUT ./Rose_ResearchProposal.out
 INPUT ./Rose_ResearchProposal.out
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

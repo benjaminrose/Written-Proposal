@@ -113,48 +113,44 @@ cosmology as a whole.
 The excepted cosmological model, $\Lambda$CDM, works under a testable assumption
 that the universe is isotropic and homogeneous on large scales, scales greater
 than the size of the present day first acoustic peaks seen in the CMB.
-%(\cite{Scrimgeour12} says greater-equal 100h$^{-1}$Mpc in ΛCDM).    
+%(\cite{Scrimgeour12} says greater-equal 100h$^{-1}$Mpc in ΛCDM).     
 We already know that gravity breaks this isotropic condition on small scales and
 produces peculiar motion of galaxies. Specific theories of inflation (like in
 \cite{MersiniHoughton:2008io}) produce a preferred direction in our visible
 universe due to a slight curvature in space-time from pre-inflation
-interactions. \todo{go into theory detail?} Observationally, if this preferred
-direction exists, we expect to see a uniform bulk velocity flow that extends
-outside the local group and into what $\Lambda$CDM would predict to be a purely
-isotropic Hubble expansion. Such a large-scale asymmetry has been called a
-``dark flow'' \cite{MersiniHoughton:2008io}.
+interactions.  Observationally, if this preferred direction exists, we expect to
+see a uniform bulk velocity flow that extends outside the local group and into
+what $\Lambda$CDM would predict to be a purely isotropic Hubble expansion. Such
+a large-scale asymmetry has been called a ``dark flow''
+\cite{MersiniHoughton:2008io}. % \todo{go into theory detail?}
 
 \subsection{Previous Tests}\label{previous-tests}
 
-The universe's isotropic nature has been intensely tested, over the last half a
-decade, with surveys of nearby galaxies \citep{Ma13}\todo{add wiltshire 2013,
-they use galaxies but did not find anything}, kinetic Sunyaev- Zel\'{d}ovich
-(kSZ) effect on distant clusters \citep{Kashlinsky10,Planckdf}, and with \sn{}
-data sets \citep[and others as seen in \Cref{t:review}]{Dai11,Rathaus13}. Most
-searches did not see a bulk flow that was significantly larger then allowed by
-\lcdm{} but some saw a bulk flow of greater then $1000 \kms{}$ out to redshifts
-of $z = 0.25$. This measurement cannot be explained by $\Lambda$CDM alone but
-needs an inflation theory that predicts this cosmic anisotropy.  A summary of
-the results from past searches can be found in \cref{t:review}. \todo{remove
-both table references here.}
-
-\todo{referance \cref{f:ksz}}
-
 \begin{figure}
 	\includegraphics[width=3.2in]{Kashlinsky2010.pdf} 
-    \caption{\todo{Caption this thing} 
-    Taken from \cite{Kashlinsky10}}
+    \caption{This is the measured bulk flows from kSZ measurements found in 
+    \cite{Kashlinsky10}. The blocks are for $z \leq 0.12$, $0.16$, $0.2$, and 
+    $0.25$. A 95\% confidence of a \lcdm{} model is given in the grey-shaded 
+    region, with two different priors producing the rms lines.
+    Taken from \cite{Kashlinsky10}.}
 	\label{f:ksz} 
+% Bulk velocity vs. depth from Table 1: blue/cyan/green/red correspond to z \leq
+% 0.12/0.16/0.2/0.25; parameters for fits (a) are chosen for brevity.
+% Solid/dashed lines correspond to the rms bulk velocity for the concordance
+% ΛCDM model for top-hat/Gaussian windows. Black-shaded regions show the
+% 95\% confidence level of the model (see KABKE1 for details).
 \end{figure}
 
-\todo{referance \cref{f:bf-w-sn}}
-
-\begin{figure}
-	\includegraphics[width=3.2in]{Rathaus2013.pdf} 
-    \caption{\todo{Caption this thing} 
-    Taken from \cite{Rathaus13}}
-	\label{f:bf-w-sn} 
-\end{figure}
+The universe's isotropic nature has been intensely tested, over the last half a
+decade, with surveys of nearby galaxies \citep{Ma13,Wiltshire:2013dl}, kinetic
+Sunyaev- Zel\'{d}ovich (kSZ) effect on distant clusters
+\citep{Kashlinsky10,Planckdf}, and with \sn{} data sets \citep[and others as
+seen in \Cref{t:review}]{Dai11,Rathaus13}. Most searches did not see a bulk flow
+that was significantly larger then allowed by \lcdm{} but some saw a bulk flow
+of greater then $1000 \kms{}$ out to redshifts of $z = 0.25$, \cref{f:ksz}. This
+measurement cannot be explained by $\Lambda$CDM alone but needs an inflation
+theory that predicts this cosmic anisotropy. A summary of the results from past
+searches can be found in \cref{t:review}.
 
 \begin{figure}
 	\includegraphics[width=3.2in]{what_dataset_size_v_velocity.pdf} 
@@ -219,15 +215,20 @@ set is the hardest part. Telescope uncertainties and project goals have been
 stated, but these need to be transitioned, and any errors propagated, into
 positions, redshifts, and distances. The hardest part will be redshift. The
 community will not be able to get a spectra of the hosts at the rate that LSST
-will find \sn, reducing the rate of cosmologically usable \sn. Also with follow
-up telescopes in different locations then LSST, the footprint of the
-cosmologically useful \sn{} might be different then LSST's footprint. These and
-others survey complexities will need to be taken into account for any accurate
-modeling of what can be done with LSST \sn{}.
+will find \sn, reducing the rate of cosmologically usable \sn. \todo{talk about
+ML photo-z, photometric redshift estimation (Ball et al. 2007; Gerdes et al.
+2010; Kind & Brunner 2013)} Also with follow up telescopes in different
+locations then LSST, the footprint of the cosmologically useful \sn{} might be
+different then LSST's footprint. These and others survey complexities will need
+to be taken into account for any accurate modeling of what can be done with LSST
+\sn{}.
 
+\begin{comment}
 This project is going to push the edge of detection. To get this correct, the
-noise will need to be fully understood. \todo{Finish discussion on issues with
-finding signal in the noise, minuit's issues, etc.}
+noise will need to be fully understood. A systematic approach is need, going
+from  strong signals with unrealistically perfect data to realistic noisy and
+incomplete data.  
+\end{comment}
 
 Large surveys are being leveraged to reduce the statistical uncertainties
 in distance measurements. But we also plan to reduce the systematic error floor
@@ -260,15 +261,16 @@ reduction in this can be seen if the properties of the \sn{}'s host galaxy are
 accounted for. Host mass \citep{Childress13} and host metallicity
 \citep{Hayden13} have been seen to reduce this intrinsic scatter.
 
-\todo{talk about \Hubble{} fight in this paragraph}
 The idea that these global properties directly effect the \sn{} is a bit of a
 stretch, so the community has started to look at the local environment around
 the \sn{}. \cite{Rigault13} looked at \sn{} form the Nearby Supernova Factory
 and looked at H$_{\alpha}$ within a 1 kpc radius of each \sn{}. They found  a
 bias in standardized brightness of the \sn{}. Also \cite{Rigault15, Jones15}
 looked at \sn{} in the Constitution sample with host galaxy data from {\it
-GALEX} but they disagree on whether there is or is not a bias. Sorting this
-controversy out is critical in improving the estimate of the Hubble constant.
+GALEX} but they disagree on whether there is or is not a bias. \todo{I can do
+better then  this next sentence. Flesh out the fight a bit, how this effect
+\Hubble{} and what my work will do to help.} Sorting this controversy out is
+critical in improving the estimate of the Hubble constant.
 
 \subsection{Getting Closer in with HST}\label{hst}
 

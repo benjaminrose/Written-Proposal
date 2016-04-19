@@ -131,15 +131,14 @@ entanglement from the era before inflation.
 \end{figure}
 
 The universe's isotropic nature has been intensely tested, over the last half a
-decade, with surveys of nearby galaxies \citep{Ma13,Wiltshire:2013dl}, kinetic
+decade, with surveys of nearby galaxies \citep{Ma13,Wiltshire:2013dl}, kinematic
 Sunyaev- Zel\'{d}ovich (kSZ) effect on distant clusters
-\citep{Kashlinsky10,Planckdf}, and with \sn{} data sets \citep[and others as
-seen in \Cref{t:review}]{Dai11,Rathaus13}. Most searches did not see a bulk flow
-that was significantly larger then allowed by \lcdm{} but some saw a bulk flow
-of greater then $1000 \kms{}$ out to redshifts of $z = 0.25$, \cref{f:ksz}. This
+\citep{Kashlinsky10,Planckdf}, and with \sn{} data sets \citep[and
+others]{Dai11,Rathaus13,Appleby14}. Most searches did not see a bulk flow that
+was significantly larger then allowed by \lcdm{} but some saw a bulk flow of
+greater then $1000 \kms{}$ out to redshifts of $z = 0.25$, \cref{f:ksz}. This
 measurement cannot be explained by $\Lambda$CDM alone but needs an inflation
-theory that predicts this cosmic anisotropy. A summary of the results from past
-searches can be found in \cref{t:review}.
+theory that predicts this cosmic anisotropy.
 
 \begin{figure}
 	\includegraphics[width=3.2in]{what_dataset_size_v_velocity.pdf} 
@@ -361,65 +360,5 @@ environment.
 
 \bibliographystyle{apj}
 \bibliography{2016-02-07-w-ResearchProposal}
-
-\begin{deluxetable}{ccc|cc|c|cc}
-\tablecolumns{8}
-% \tabletypesize{\small} %equal to title size, seems too big
-% \tabletypesize{\footnotesize} %can split after Rathaus13
-\tabletypesize{\scriptsize} %one line (+ footnotes) too long for one page
-% \tabletypesize{\tiny} %fits on one page
-\tablewidth{0pt} %its natural width, (fix different natural widths with info from log file)
-% \tablewidth{556pt} %from log tables are 524.95901pt & 555.51466pt wide. But this look strange.
-% \rotate
-\tablecaption{Summary of bulk flow searches.\label{t:review}} %really a title
-\tablehead{
-	\colhead{Reference} & \colhead{Obj. Type} & \colhead{No. Obj.} & \colhead{Redshift\tablenotemark{a}} & \colhead{Distance\tablenotemark{a}}  & \colhead{$v_{bf}$} & \colhead{$l$} & \colhead{$b$} \\
-	\colhead{}			& \colhead{}		  & \colhead{}		   & \colhead{}		 					 & \colhead{h$^{-1}$ Mpc}				& \colhead{km s$^{-1}$} 	& \colhead{deg}	& \colhead{deg}
-	}
-
-\startdata
-\cite{Kashlinsky10}  & kSZ & 516 & $< 0.12$ & $< 345$ & $934  \pm 352$ & $282 \pm 34$ &  $22 \pm 20$ \\
-                            & & 547 & $< 0.16$ & $< 430$ & $1230 \pm 331$ & $292 \pm 21$ & $27 \pm 15$ \\
-                            & & 694 & $< 0.20$ & $< 540$ & $1042 \pm 295$ & $284 \pm 24$ & $30 \pm 16$ \\
-                            & & 838 & $< 0.25$ & $< 640$ & $1005 \pm 267$ & $296 \pm 29$ &  $39 \pm 15$ \\ 
-\tableline
-\cite{Dai11} & SN Ia & 132 & $< 0.05$ & $< 145$ &  $188 \pm 120$  &  $290 \pm 39$ & $20 \pm 32$ \\
-                                      & & 425 & $> 0.05$ & $> 145$ &  \nodata     &   \nodata    &   \nodata   \\
-\tableline
-% \cite{Weyant11} & SN Ia & 112 & $< 0.028$ & $< 85 $ & $538 \pm  86$ & $250 \pm 100$ & $36 \pm 11$ \\ 
-% \tableline
-\cite{Ma11}   & \begin{tabular}{c}galaxies \\ \& SN Ia \end{tabular} & 4536 & $< 0.011 $ & $< 33$ &    $340 \pm 130$ & $285 \pm 23 $ &$ 9 \pm 19$ \\ 
-\tableline
-\cite{Colin11} & SN Ia & 142 & $< 0.06$ & $< 175$ & $260 \pm 130$ & $298 \pm 40 $ &$ 8 \pm 40$ \\
-\tableline
-% \cite{Turnbull12} & SN Ia & 245 & $< 0.05$ & $< 145$ & $245 \pm  76$ & $319 \pm 18 $ &$ 7 \pm 14$ \\ 
-% \tableline
-\cite{Feindt13} & SN Ia  & 128 & 0.015 - 0.035 & 45 -108 & $243 \pm  88$ & $298 \pm 25$ &$15 \pm 20$ \\ 
-                                             & & 36  & 0.035 - 0.045 & 108 - 140 & $452 \pm 314$ & $302 \pm 48$ & $ -12 \pm 26$ \\
-                                             & & 38  & 0.045 - 0.060 & 140 - 188 & $650 \pm 398$ & $359 \pm 32$ & $ 14 \pm 27$ \\
-                                             & & 77  & 0.060 - 0.100 & 188 - 322 & $105 \pm 401$ & $285 \pm 234$ & $ -23 \pm 112$ \\ 
-\tableline
-% dist is correct, z is a guess
-\cite{Ma13}       & galaxies & 2404 & $< 0.026$ & $< 80$ & $280 \pm 8$ & $280 \pm 8 $ &$ 5.1 \pm 6$ \\ 
-\tableline
-\cite{Rathaus13} & SN Ia & 200 & $< 0.2$ &  $< 550$ & $260$ & $295$ &$ 5$ \\ 
-\tableline
-
-% \tablebreak %splits the table over two pages here
-
-%add \citet{Wiltshire13}? & galaxies &
-\cite{Appleby14} & SN Ia & 187 & 0.015 - 0.045  & 45 - 130 & \nodata & $276 \pm 29$ &$ 20 \pm 12$ \\ 
-\tableline 
-\cite{Planckdf} & kSZ &  95 & 0.01 - 0.03 & 30 - 90 & $< 700$ & \nodata & \nodata \\ 
-                     & & 1743& $< 0.5$  & $< 2000$ & $< 254$ & \nodata & \nodata\\ 
-%Planck number from http://arxiv.org/pdf/1007.1916v1.pdf and from its datafile
-\tableline
-\cite{Mathews16} & SN Ia & 191 & $< 0.05$ & $<  145$ & $325\pm 54$ & $276 \pm 15$ &$ 37 \pm 13$ \\ 
-                                &   & 387 & $> 0.05$ & $> 145$ & $ 460 \pm 260$ & $180 \pm 34$ &$ 65 \pm 340$ \\ 
-\enddata
-
-\tablenotetext{a}{Distances and redshifts are either the maximum, or a characteristic value if available from the original source. If distance and redshift were not both given in the literature, calculated distances vs. redshift were done with WMAP parameters: $\Omega_M = 0.288$ and $\Omega_{\Lambda} = 0.712$.}
-\end{deluxetable}
-
 
 \end{document}

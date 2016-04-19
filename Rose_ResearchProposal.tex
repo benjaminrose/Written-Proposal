@@ -23,7 +23,7 @@
 \newcommand{\kms}{\ensuremath{~\text{km s}^{-1}}}
 
 % running headers for journal/emulate
-\shorttitle{Testing the Cosmological Principle} 
+\shorttitle{Improved Supernova Distances} 
 \shortauthors{Rose}
 % \slugcomment{\today}
 
@@ -33,7 +33,8 @@
 
 \begin{document}
 
-\title{Precision Cosmology: Testing the Cosmological Principle \\with Improved Supernova Distances}
+% \title{Precision Cosmology: Testing the Cosmological Principle \\with Improved Supernova Distances}
+\title{Improved Supernova Distances to Test the Cosmological Principle \\and a Bias in the Hubble Constant}
 
 \author{Benjamin Rose \\{\it advised by} P. M. Garnavich}
 \affil{University of Notre Dame, Center for Astrophysics, Notre Dame, IN 46556}
@@ -47,40 +48,26 @@
 
 \begin{abstract} 
 
-Type Ia supernova (\sn{}) have become a standard cosmological tool, but there
-are still improvements needed in this age of precision cosmology. Cosmology is
+Type Ia supernovae (\sn{}) have become a standard cosmological tool, but there
+are still improvements needed in this age of precision cosmology.  Cosmology  is
 reaching a point where we can now start to test the cosmological principle, that
-the universe is homogeneous and isotropic on large scales. This is a fundamental
-search to validate our understanding of the mass-energy make-up of the universe
-and look for entanglement from the era before inflation. I have analyzed the
+the universe is homogeneous and isotropic on large scales.  I have analyzed the
 currently available dataset of \sn{} to search for bulk flows on a variety of
-scales. We confirmed a  velocity asymmetries across the sky of $\sim 300~\kms{}$
+scales. We confirmed a velocity asymmetries across the sky of $\sim 300~\kms{}$
 at low redshift. We cannot rule out a large-scale bulk flow (dark flow) that
 could be caused by quantum entanglement in the early universe. And we show that
 a larger \sn{} dataset and improved distance precision would provide useful
-constraints on any dark flow. LSST will provide a large \sn{} dataset that has
-an excellent photometric reliability of $10~\text{millimag}$ across the sky. We plan to
-simulate large datasets to determine the optimal observing strategy to constrain
-the dark flow given the photometric precision, cadence, and sky coverage
-possible from LSST and other \sn{} surveys. Further, we will improve the \sn{}
-distance precision by correlating Hubble residuals with properties of the local
-environment around the supernova. There appears to be some correlation between
-the global host properties (e.g. star formation rate, metallicity) and \sn{}
-luminosity residuals. And there is a controversy as to whether the local
-environment is biasing the best estimates of the Hubble constant. We will
-analyze existing high-resolution Hubble Space Telescope images of SDSS host
-galaxies to see if the stellar properties at the explosion location correlate
-with \sn{} luminosity.
-
-\begin{comment}
-Increasing the precision of \sn{} cosmology allows us to test fundamental
-assumptions like the cosmological principle. The objectives of this research are
-to continue the analysis of \sn{} calibration and the search of a cosmic-scale
-bulk flow. The next step in searching for a cosmic-scale bulk flow is to
-simulate and fully understand what is knowable from future surveys like LSST.
-The next step for \sn{} calibration is to more fully understand the local
-environment. 
-\end{comment}
+constraints on any dark flow.  We plan to simulate future large datasets to
+determine the optimal observing strategy to constrain the dark flow given the
+photometric precision, cadence, and sky coverage possible from LSST and other
+\sn{} surveys.  Further, we will improve the \sn{} distance precision by
+correlating Hubble residuals with properties of the local environment around the
+supernova. There appears to be some correlation between the global host
+properties (e.g. star formation rate, metallicity) and \sn{} luminosity
+residuals. There is a controversy as to whether the local environment is biasing
+the best estimates of the Hubble constant. We will analyze existing high-
+resolution Hubble Space Telescope images of SDSS host galaxies to see if the
+stellar properties at the explosion location correlate with \sn{} luminosity.
 
 \end{abstract}
 
@@ -113,7 +100,7 @@ cosmology as a whole.
 The excepted cosmological model, $\Lambda$CDM, works under a testable assumption
 that the universe is isotropic and homogeneous on large scales, scales greater
 than the size of the present day first acoustic peaks seen in the CMB.
-%(\cite{Scrimgeour12} says greater-equal 100h$^{-1}$Mpc in ΛCDM).     
+%(\cite{Scrimgeour12} says greater-equal 100h$^{-1}$Mpc in ΛCDM).      
 We already know that gravity breaks this isotropic condition on small scales and
 produces peculiar motion of galaxies. Specific theories of inflation (like in
 \cite{MersiniHoughton:2008io}) produce a preferred direction in our visible
@@ -122,7 +109,9 @@ interactions.  Observationally, if this preferred direction exists, we expect to
 see a uniform bulk velocity flow that extends outside the local group and into
 what $\Lambda$CDM would predict to be a purely isotropic Hubble expansion. Such
 a large-scale asymmetry has been called a ``dark flow''
-\cite{MersiniHoughton:2008io}. % \todo{go into theory detail?}
+\cite{MersiniHoughton:2008io}. This is a fundamental search to validate our
+understanding of the mass-energy make-up of the universe and look for
+entanglement from the era before inflation.
 
 \subsection{Previous Tests}\label{previous-tests}
 
@@ -233,8 +222,24 @@ Large surveys are being leveraged to reduce the statistical uncertainties
 in distance measurements. But we also plan to reduce the systematic error floor
 by studying the local environments of \sn{}.
 
-\section{Standardizing type Ia
-supernova}\label{standardizing-type-ia-supernova}
+% \section{Standardizing type Ia
+% supernova}\label{standardizing-type-ia-supernova}
+\section{Testing for a Bias in the Hubble constant} % (fold)
+\label{sec:Hubble_Bias}
+
+The local Hubble constant is simply the slop of the relationship between
+velocity and distance. Like many aspects of astronomy, measuring distance is the
+hardest part of this process. The Hubble constant can not be measured locally,
+because gravitation from the local galaxies and clusters create relatively large
+bulk motions. The further out one tries to measure distance the less direct the
+measurement becomes and the more it relies on the ``distance ladder.'' This is
+where astronomers start with known distances and climb their way out to greater
+and greater distances by using different measurement techniques alone the way.
+If an anchoring of two techniques is not consistent with the individual
+techniques themselves, then a bias can arise. This is likely to appear if two
+measurements only overlap in a particular subset of objects.
+
+\subsection{New Standardizations}\label{new-standardizations}
 
 The \sn{} community as a whole is focusing on reducing uncertainty in \sn{}
 distances. Knowing distance more precisely will narrow the range for the Hubble
@@ -251,8 +256,6 @@ distance). So it takes about 50 \sn{} to reduce the statistical error down to a
 few percent in brightness, which is near the the systematic floor. This floor
 is partly caused by limits on photometric calibration and partly by intrinsic
 uncertainties in the supernovae themselves.
-
-\subsection{New Standardizations}\label{new-standardizations}
 
 A significant amount of research time and energy is spent on trying to reduce
 the scatter in the absolute magnitude of \sn{}. It has been found that a
@@ -275,12 +278,15 @@ critical in improving the estimate of the Hubble constant.
 \subsection{Getting Closer in with HST}\label{hst}
 
 I am currently working with Hubble Space Telescope (HST) images of host galaxies
-of \sn{} found during SDSS-II Supernova Survey. HST's small angular resolution
-allows for a much smaller definition of local environment. For a galaxy at $z =
-0.1$ HST can get an environment of $\sim$160 pc, verses the 1 kpc that was used
-with {\it GALEX} data in \cite{Jones15,Rigault15}. This can be seen in the
-comparison between SDSS (having a simpler angular resolution to {\it GALEX}) and
-HST images of the host galaxy of SN 2005fw seen in \cref{f:galaxy-compare}.
+of \sn{} found during SDSS-II Supernova Survey
+\citep{2008AJ....135..338F,2008AJ....135..348S}. All the \sn{} were found in
+stipe 82, $2.5^{\circ}$ wide and about $\sim120^{\circ}$ along the Celestial
+Equator. HST's small angular resolution allows for a much smaller definition of
+local environment. For a galaxy at $z = 0.1$ HST can get an environment of
+$\sim$160 pc, verses the 1 kpc that was used with {\it GALEX} data in
+\cite{Jones15,Rigault15}. This can be seen in the comparison between SDSS
+(having a simpler angular resolution to {\it GALEX}) and HST images of the host
+galaxy of SN 2005fw seen in \cref{f:galaxy-compare}.
 
 \begin{figure}
 	\includegraphics[width=3.2in]{SN2635-combined-inverted.pdf}
@@ -289,8 +295,11 @@ HST images of the host galaxy of SN 2005fw seen in \cref{f:galaxy-compare}.
 	\label{f:galaxy-compare}
 \end{figure}
 
-\todo{Describe our HST data. z range, from stripe 82 (elcliptic), filters,
-exposure times, angular resolution}
+This process is not new, but HST's resolution allows us to probe hosts at a
+higher redshift. These redshifts are needed because the residuals on the Hubble
+diagram will allow for analysis of systematics rather then bulk motion. The
+redshift range of SDSS-II Supernovae Survey is $z=0.05-0.4$. The HST
+observations were taken in two filters, with $360~\text{sec}$ exposures each.
 
 After processing and analysis, the HST images will produce several variables
 describing the local environments of the \sn{}. These variables will be compared
@@ -302,8 +311,6 @@ star formation. Another variable would be the color of the \sn{}'s pixel. Color
 can give a idea of the type of stars in that region. Further analysis of subsets
 will be done. We will be able to answer questions like whether there is a bias
 for \sn{} in clumpy regions of elliptical galaxies.
-
-\todo{intro figure of fpr of one galaxy}
 
 % F derivative R - (second derivative) - finds things that do not match 
 % its neighbors (nor follows a nice smooth slope like ellipticals)
@@ -342,12 +349,15 @@ resolution is the best for observing a true local environment.
 
 \section{Conclusion}
 
-\sn{} have been a standard cosmological tool for decades. In this time their
-properties have been continually refined. Now \sn{} detections are numerous
-enough and  precise enough to start testing the Cosmological Principle. Towards
-this goal I will also understand the effects of future large scale surveys, and
-work on increasing \sn{} precision by examining local environments with the
-Hubble Space Telescope.
+\sn{} have been a standard cosmological tool for decades. In this time they
+have been continually refined to be more exact. Now \sn{} detections are
+numerous enough and precise enough to start testing the Cosmological Principle
+and looking for a bias in the Hubble constant.  The objectives of this research
+are to continue the analysis of \sn{} calibration and the search of a cosmic-
+scale bulk flow. The next step in searching for a cosmic-scale bulk flow is to
+simulate and fully understand what is knowable from future surveys like LSST.
+The next step for \sn{} calibration is to more fully understand the local
+environment.
 
 \bibliographystyle{apj}
 \bibliography{2016-02-07-w-ResearchProposal}

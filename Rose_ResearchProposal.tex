@@ -64,16 +64,17 @@ future \sn{} surveys.  Furthermore, we will improve the \sn{} distance precision
 by correlating Hubble residuals with properties of the local environment around
 the supernova. There appears to be some correlation between the global host
 properties (e.g. star formation rate, metallicity) and \sn{} luminosity
-residuals. There is a controversy as to whether the local environment is biasing
-the best estimates of the Hubble constant (\Hubble{}). This bias either corrects
-or continues the tension between \Hubble{} measured from the CMB or with \sn{}.
-We will analyze existing high resolution Hubble Space Telescope images of SDSS
-host galaxies to see if the stellar properties at the explosion location
-correlate with \sn{} luminosity.
+residuals. There is a controversy as to whether the influence of the local
+environment is biasing the best estimates of the Hubble constant (\Hubble{}).
+This bias either corrects or continues the tension between \Hubble{} measured
+from the CMB or with \sn{}. We will analyze existing high resolution Hubble
+Space Telescope images of SDSS host galaxies to see if the stellar properties at
+the explosion location correlate with \sn{} luminosity.
 
 \end{abstract}
 
 \maketitle
+
 
 \section{Introduction}\label{introduction} 
 
@@ -86,27 +87,35 @@ perform these tests, both the statistical and systematic uncertainties in \sn{}
 distances must be reduced. These measurements will give deeper understanding of
 the evolution of the cosmos and the structure and composition of the universe.
 
-The first assumption comes from the Cosmological Principle, that the universe is
-homogeneous and isotropic on the largest scales. Simple tests can be constructed
-to see if there is a consistent cosmology in all directions. For these to reach
-out to distances of gigaparsecs, or of order $0.1$ in redshift, \sn{} need to
-have very accurate distance measurements. The needed precision is more than a
-single \sn{} measurement is not going to be able to achieve in the foreseeable
-future. But looking for a change in cosmology means the measurement is
-statistically dominated. More \sn{} are going to come from the massive survey
+The most fundamental assumption is called the Cosmological Principle, that the
+universe is homogeneous and isotropic on the largest scales. Simple tests can be
+constructed to see if there is a consistent cosmology in all directions. For
+these to reach out to distances of gigaparsecs, or of order $0.1$ in redshift,
+\sn{} need to have very accurate distance measurements. 
+% The needed precision is
+% more than a single \sn{} measurement is not going to be able to achieve in the
+% foreseeable future. But looking for a change in cosmology means the measurement
+% is statistically dominated. 
+A single \sn{} at a redshift of 0.1 is not sufficient to reach the accuracy
+required to search for a dark flow. But averaging many SNIa measurements in the
+same direction on the sky can reduce the statistical uncertainty. Because we are
+looking for differences in the cosmology across the sky, systematic errors are
+minimized.
+More \sn{} are going to come from the massive survey
 ongoing and planned for the near future.
-
 
 As stated above, there is a systematic uncertainty floor in the distance from an
 individual \sn{}. \sn{} distances are already corrected for light curve width
-and color variations, but new corrections appear to improve distance
-accuracy, such as correlations with host galaxy properties or even the local
-environment near the explosion. These correlations with the local environment
-can lead to a bias in the Hubble constant (\Hubble{}) because of how \sn{} are
-anchored to object of known distance. Finding a bias in \Hubble{} as measured by
-\sn{} will help with the tension between this measurement and the value
-calculated using the CMB. Performing more analysis of the local environment will
-advance both supernova cosmology and cosmology as a whole.
+and color variations, but new corrections appear to improve distance accuracy,
+such as correlations with host galaxy properties or even the local environment
+near the explosion. These correlations with the local environment can lead to a
+bias in the Hubble constant (\Hubble{}) because of how \sn{} are anchored to
+object of known distance. Unlike testing if there is a consistent cosmology in
+all directions, looking for a bias in \Hubble{} is dominated by systematic
+errors. Finding a bias in \Hubble{} as measured by \sn{} will help with the
+tension between this measurement and the value calculated using the CMB.
+Performing more analysis of the local environment will advance both supernova
+cosmology and cosmology as a whole.
 
 
 \section{Testing the Cosmological Principle}\label{testing-the-cosmological-principle}
@@ -205,14 +214,17 @@ and eventually DESI.
 At the end of \cite{Mathews16}, we suggest that LSST might produce a data set
 that is able to search for the dark flow. Detailed simulations of LSST-like data
 sets are critical in understanding the limits of the survey when applied to the
-dark flow problem. These tests will show if the combination of LSST's precision,
-cadence, and sky coverage will be sufficient to test for isotropic expansion as
-is the foundation of \lcdm{} and what limits can be placed on the dark flow.
-WFIRST may also be able to help in this measurement, however, its sky coverage
-will be limited compared with LSST. It has already been seen that sky coverage
-produces a bias in the bulk flow velocity \citep{Appleby14} if not obscuring
-measurements completely \citep{Mathews16}. Simulations of the combined LSST and
-WFIRST data sets will produce useful insights into optimum future surveys.
+dark flow problem.  These tests will show if the combination of LSST's
+measurement precision, cadence, and sky coverage will be able to place limits on
+the dark flow.
+% sufficient to test for isotropic expansion as
+% is the foundation of \lcdm{} and what limits can be placed on the dark flow.
+The future space telescope WFIRST may also be able to help in this measurement,
+however, its sky coverage will be limited compared with LSST. It has already
+been seen that sky coverage produces a bias in the dark flow velocity
+\citep{Appleby14} if not obscuring measurements completely \citep{Mathews16}.
+Simulations of the combined LSST and WFIRST data sets will produce useful
+insights into optimum future surveys.
 
 Since the analysis method is written, getting a good simulated LSST \sn{} data
 set is the hardest part. Telescope uncertainties and project goals have been
@@ -279,17 +291,21 @@ reduction in this scatter can be achieved if the properties of the \sn{}'s host
 galaxy are taken into account. Host mass \citep{Childress13} and host
 metallicity \citep{Hayden13} have been seen to reduce this intrinsic scatter.
 
-The idea that these global properties directly effect the \sn{} is a bit of a
+The idea that these global properties directly affect the \sn{} is a bit of a
 stretch, so the community has started to look at the local environment around
 the \sn{}. \cite{Rigault13} looked at \sn{} form the Nearby Supernova Factory
-and looked at H$_{\alpha}$ within a 1 kpc radius of each \sn{}. They found a
-bias in standardized brightness of the \sn{}. Also \cite{Rigault15, Jones15}
-looked at \sn{} in the Constitution sample with host galaxy data from {\it
-GALEX} but they disagree on whether there is or is not a bias. %\todo{I can do
+and the host galaxy's $\text{H}_{\alpha}$ within a 1 kpc radius of each \sn{}.
+They found a bias in the \sn{} standardized luminosity when they divided their
+sample in half based on the measured $\text{H}_{\alpha}$. If there was less
+$\text{H}_{\alpha}$ then the average corrected luminosity was also lower.  Also
+\cite{Rigault15, Jones15} looked at \sn{} in the Constitution sample with host
+galaxy data from {\it GALEX} but they disagree on whether there is or is not a
+bias.
+%\todo{I can do
 %better then  this next sentence. Flesh out the fight a bit, how this effect
 %\Hubble{} and what my work will do to help.} 
-Sorting this controversy out is
-critical in improving the estimate of the Hubble constant.
+Sorting this controversy out is critical in improving the estimate of the
+Hubble constant.
 
 \subsection{Getting Closer in with HST}\label{hst}
 
@@ -368,15 +384,29 @@ resolution is the best for observing a true local environment.
 
 \section{Conclusion}
 
-\sn{} have been a standard cosmological tool for decades. In this time they
-have been continually refined to be more exact. Now \sn{} detections are
-numerous enough and precise enough to start testing the Cosmological Principle
-and looking for a bias in the Hubble constant.  The objectives of this research
-are to continue the analysis of \sn{} calibration and the search of a cosmic-
-scale bulk flow. The next step in searching for a cosmic-scale bulk flow is to
-simulate and fully understand what is knowable from future surveys like LSST.
-The next step for \sn{} calibration is to more fully understand the local
-environment.
+\sn{} have been a standard cosmological tool for decades. In this time their
+absolute magnitude has been continually refined to be more precise and
+standardized. Now \sn{} detections are numerous enough and their distances are
+accurate enough to start testing the Cosmological Principle and looking for a
+bias in the Hubble constant. These two tests are complementary.  The next
+step in searching for a cosmic-scale bulk flow is to lower the statistical
+uncertainties of \sn{}. This will be done by future large scale surveys but
+their impact needs to be understood through simulations or their usefulness will
+be limited.  The next step for testing for a bias in \Hubble{} is to lower \sn{}
+systematic uncertainties. These uncertainties appear to be correlated with local
+environments, but the exact variable is still unknown. More high resolution
+observations need to be done allowing for a thorough analysis of the local
+environment's effects on \sn{}.
+
+%  The objectives of this research
+% are to continue the analysis of \sn{} calibration and the search of a cosmic-
+% scale bulk flow. 
+% The next step in searching for a cosmic-scale bulk flow is to
+% simulate and fully understand what is knowable from future surveys like LSST.
+% The next step for \sn{} calibration is to more fully understand the local
+% environment.
+
+% \newpage
 
 \bibliographystyle{apj}
 \bibliography{2016-02-07-w-ResearchProposal}

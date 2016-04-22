@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex Rose_ResearchProposal"] 1461337919 "Rose_ResearchProposal.aux" "Rose_ResearchProposal.bbl" "Rose_ResearchProposal" 1461338641
+["bibtex Rose_ResearchProposal"] 1461340312 "Rose_ResearchProposal.aux" "Rose_ResearchProposal.bbl" "Rose_ResearchProposal" 1461343539
   "./apj.bst" 1415142992 32354 793e37b5d4f2e45d3cdee2a071e441d5 ""
   "2016-02-07-w-ResearchProposal.bib" 1461096096 29007 93d8536f78633623c230ac770271abd1 ""
-  "Rose_ResearchProposal.aux" 1461338641 15609 16b0c21f6c54abfe440a31ce09bdd9af ""
+  "Rose_ResearchProposal.aux" 1461343538 15609 874ff9745e415ce0bbb71ee303d55b23 ""
   "Rose_ResearchProposal.bcf" 0 -1 0 ""
-  "Rose_ResearchProposalNotes.bib" 1461338640 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Rose_ResearchProposalNotes.bib" 1461343537 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "Rose_ResearchProposal.bbl"
   "Rose_ResearchProposal.blg"
-["pdflatex"] 1461338638 "Rose_ResearchProposal.tex" "Rose_ResearchProposal.pdf" "Rose_ResearchProposal" 1461338641
+["pdflatex"] 1461343536 "Rose_ResearchProposal.tex" "Rose_ResearchProposal.pdf" "Rose_ResearchProposal" 1461343539
   "./Kashlinsky2010.pdf" 1458846588 78496 dc28db8adda47f72a1a3d23ccbfba5a7 ""
-  "./Rose_ResearchProposal.out" 1461338641 619 69a9a9b11d073263f837aee2234afcd5 ""
+  "./Rose_ResearchProposal.out" 1461343538 619 69a9a9b11d073263f837aee2234afcd5 ""
   "./SN2635-combined-inverted.pdf" 1454956884 187482 34a711754af17d68a1b13cf9df9a0fcb ""
   "./what_dataset_size_v_velocity.pdf" 1453993280 72799 f1adecec33d7cc9be80a9cb468dcf023 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -114,15 +114,15 @@
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1432479681 3849859 39a7d258195bde2394e244961601fbc5 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
   "Kashlinsky2010.pdf" 1458846588 78496 dc28db8adda47f72a1a3d23ccbfba5a7 ""
-  "Rose_ResearchProposal.aux" 1461338641 15609 16b0c21f6c54abfe440a31ce09bdd9af ""
-  "Rose_ResearchProposal.bbl" 1461337919 12410 79e5de2b3ca62dc1271b01d5dc298b8f "bibtex Rose_ResearchProposal"
-  "Rose_ResearchProposal.out" 1461338641 619 69a9a9b11d073263f837aee2234afcd5 ""
-  "Rose_ResearchProposal.tex" 1461338637 21746 653d8cf3466bb926b8bbd9492910e779 ""
+  "Rose_ResearchProposal.aux" 1461343538 15609 874ff9745e415ce0bbb71ee303d55b23 ""
+  "Rose_ResearchProposal.bbl" 1461340312 12410 79e5de2b3ca62dc1271b01d5dc298b8f "bibtex Rose_ResearchProposal"
+  "Rose_ResearchProposal.out" 1461343538 619 69a9a9b11d073263f837aee2234afcd5 ""
+  "Rose_ResearchProposal.tex" 1461343535 23224 f0bb1a48b7091a5229e35410bb29af05 ""
   "SN2635-combined-inverted.pdf" 1454956884 187482 34a711754af17d68a1b13cf9df9a0fcb ""
   "what_dataset_size_v_velocity.pdf" 1453993280 72799 f1adecec33d7cc9be80a9cb468dcf023 ""
   (generated)
-  "Rose_ResearchProposal.aux"
-  "Rose_ResearchProposal.log"
-  "Rose_ResearchProposalNotes.bib"
-  "Rose_ResearchProposal.out"
   "Rose_ResearchProposal.pdf"
+  "Rose_ResearchProposal.out"
+  "Rose_ResearchProposal.log"
+  "Rose_ResearchProposal.aux"
+  "Rose_ResearchProposalNotes.bib"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 APR 2016 15:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 APR 2016 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -522,14 +522,14 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 56.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<Kashlinsky2010.pdf, id=79, 253.71376pt x 198.07922pt>
+<Kashlinsky2010.pdf, id=80, 253.71376pt x 198.07922pt>
 File: Kashlinsky2010.pdf Graphic file (type pdf)
 
 <use Kashlinsky2010.pdf>
 Package pdftex.def Info: Kashlinsky2010.pdf used on input line 142.
 (pdftex.def)             Requested size: 231.26378pt x 180.55762pt.
 
-<what_dataset_size_v_velocity-2.pdf, id=99, 517.7577pt x 404.16989pt>
+<what_dataset_size_v_velocity-2.pdf, id=100, 517.7577pt x 404.16989pt>
 File: what_dataset_size_v_velocity-2.pdf Graphic file (type pdf)
 
 <use what_dataset_size_v_velocity-2.pdf>
@@ -558,10 +558,10 @@ Package rerunfilecheck Info: File `Rose_ResearchProposal.out' has not changed.
 (rerunfilecheck)             Checksum: 69A9A9B11D073263F837AEE2234AFCD5;619.
  ) 
 Here is how much of TeX's memory you used:
- 10450 strings out of 493089
- 158552 string characters out of 6134842
- 313096 words of memory out of 5000000
- 13773 multiletter control sequences out of 15000+600000
+ 10452 strings out of 493089
+ 158569 string characters out of 6134842
+ 314097 words of memory out of 5000000
+ 13775 multiletter control sequences out of 15000+600000
  11523 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,8n,36p,1896b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -584,7 +584,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Rose_ResearchProposal.pdf (4 pages, 539991 bytes).
+Output written on Rose_ResearchProposal.pdf (4 pages, 543034 bytes).
 PDF statistics:
  363 PDF objects out of 1000 (max. 8388607)
  308 compressed objects within 4 object streams

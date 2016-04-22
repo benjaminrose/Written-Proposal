@@ -25,7 +25,7 @@
 % running headers for journal/emulate
 \shorttitle{Improved Supernova Distances} 
 \shortauthors{Rose}
-% \slugcomment{\today}
+\slugcomment{}
 
 % adds date to aastex versions (emulate has this by default)
 % \slugcomment{draft version: \today}
@@ -51,9 +51,9 @@
 Type Ia supernovae (\sn{}) have become a standard cosmological tool, but there
 are still improvements needed in this age of precision cosmology.  Cosmology  is
 reaching a point where we can now start to test the Cosmological Principle, that
-the universe is homogeneous and isotropic on large scales.  I have analyzed the
+the universe is homogeneous and isotropic on large scales. I have analyzed the
 currently available data set of \sn{} to search for bulk flows on a variety of
-scales. We confirmed a velocity asymmetry across the sky of $\sim 300~\kms{}$ at
+scales. This analysis confirmed a velocity asymmetry across the sky of $\sim 300~\kms{}$ at
 low redshift. We cannot rule out a large-scale bulk flow (dark flow) that could
 be caused by quantum entanglement in the early universe. And we show that a
 larger \sn{} data set and improved distance precision would provide useful
@@ -121,14 +121,14 @@ cosmology and cosmology as a whole.
 \section{Testing the Cosmological Principle}\label{testing-the-cosmological-principle}
 
 The excepted cosmological model, $\Lambda$CDM, works under a testable assumption
-that the universe is isotropic and homogeneous on large scales, scales greater
-than the size of the present day first acoustic peaks seen in the CMB.
+that the universe is isotropic and homogeneous on large scales. These scales are
+greater than the size of the present day first acoustic peaks seen in the CMB.
 %(\cite{Scrimgeour12} says greater-equal 100h$^{-1}$Mpc in ΛCDM).      
 We already know that gravity breaks this isotropic condition on small scales and
-produces peculiar motion of galaxies. Specific theories of inflation (like in
-\cite{MersiniHoughton:2008io}) produce a preferred direction in our visible
-universe due to a slight curvature in space-time from pre-inflation
-interactions.  Observationally, if this preferred direction exists, we expect to
+produces peculiar motion of galaxies. Specific theories of inflation
+\citep[like in][]{MersiniHoughton:2008io} produce a preferred direction in our visible
+universe. This direction is due to a slight curvature in space-time from pre-inflation
+quantum interactions. Observationally, if this preferred direction exists, we expect to
 see a uniform bulk velocity flow that extends outside the local group and into
 what $\Lambda$CDM would predict to be a purely isotropic Hubble expansion. Such
 a large-scale asymmetry has been called a ``dark flow''
@@ -164,7 +164,7 @@ measurement cannot be explained by $\Lambda$CDM alone but needs an inflation
 theory that predicts this cosmic anisotropy.
 
 \begin{figure}
-	\includegraphics[width=3.2in]{what_dataset_size_v_velocity.pdf} 
+	\includegraphics[width=3.2in]{what_dataset_size_v_velocity-2.pdf} 
     \caption{The number of \sn{} needed to see a given dark flow velocity, a
 	cosmic scale bulk flow, out to a given redshift. It is seen that Union2.1 
 	can detect flows only out to $z=0.05$ and nearly 10$^4$ \sn{} would be 
@@ -173,14 +173,21 @@ theory that predicts this cosmic anisotropy.
 \end{figure}
 
 My work on initial tests of the Cosmological Principle can be found in
-\cite{Mathews16}. I worked heavily to develop a new method to search for
+\cite{Mathews16}. My contribution was to develop a new method to search for
 cosmological asymmetries using the angular separation of a \sn{} and the
 direction of the dark flow. We were able to fit the data to a model that
 contained both a \lcdm{} cosmology and an bulk flow. If the same bulk flow is
 visible across all redshifts, then we have found the dark flow signal. This
 analysis was performed on the Union2.1 \sn{} sample \citep{Suzuki12}. We found a
 mild bulk flow of $326 \pm 54$ km s$^{-1}$ out to $z = 0.05$. This is consistent
-with most past measurements and does not contradict \lcdm{}.
+with most past measurements and can be explained by gravitational perturbation
+from large scale structure. We also analyzed, for the first time, the large
+\sn{} data set from SDSS-II Supernova Survey, both spectroscopic and
+photometrically confirmed \sn{} \citep{Campbell13}. This is the largest uniformly
+collected \sn{} data set and it had a very even distributed along Stripe
+82, $2.5^{\circ}$ wide and about $\sim120^{\circ}$ along the Celestial
+Equator. Unfortunately, no measurement was possible because of that limited sky
+coverage.
 
 From further analysis we determined that the loss of signal past $z \sim 0.05$
 was not from the lack of a dark flow, but from the increase of the uncertainty
@@ -190,7 +197,7 @@ the current data sets, but it can soon be achieved. First, larger data sets will
 reduce the statistical error in \sn{} distances over large parts of the sky.
 Looking for a change of cosmology across the sky means any uniform systematics
 will be subtracted out and not affect the analysis.  A visual account of the
-needed \sn{} to see a given bulk flow can be seen in  \Cref{f:sn-needed}. This
+needed \sn{} to see a given bulk flow can be seen in \Cref{f:sn-needed}. This
 large sample size should be achievable with the Large Synoptic Survey Telescope
 (LSST) and its uniform photometric reliability of $10 ~\text{mmag}$ across the
 visible sky \citep{Ivezic08}. A large, uniform data set will push the
@@ -230,13 +237,15 @@ Since the analysis method is written, getting a good simulated LSST \sn{} data
 set is the hardest part. Telescope uncertainties and project goals have been
 stated, but these need to be transitioned, with any errors propagated, into
 positions, redshifts, and distances. The hardest part will be redshift. The
-community will not be able to get a spectra of the hosts at the rate that LSST
-will find \sn, reducing the rate of cosmologically usable \sn. Though machine
-learning is ever increasing the accuracy of photometric redshift measurements,
-e.g. \cite{Kind13}. With follow up telescopes in different locations than
-LSST, the footprint of the cosmologically useful \sn{} might be different then
-LSST's footprint. These and others survey complexities will need to be taken
-into account for any accurate modeling of what can be done with LSST \sn{}.
+community will not be able to get spectra of the hosts at the rate that LSST
+will find \sn, reducing the rate of cosmologically usable \sn. One possible way
+to get more usable \sn is through the ever improving photometric redshifts
+measurements \citep{Kind13}. We don't know what clever new techniques will allow
+for more usable data in the future. Anther difficulty is that follow up
+telescopes in different locations than LSST, the footprint of the cosmologically
+useful \sn{} might be different than LSST's footprint. These and others survey
+complexities will need to be taken into account for any accurate modeling of
+what can be done with LSST \sn{}.
 
 \begin{comment}
 This project is going to push the edge of detection. To get this correct, the
@@ -291,8 +300,8 @@ reduction in this scatter can be achieved if the properties of the \sn{}'s host
 galaxy are taken into account. Host mass \citep{Childress13} and host
 metallicity \citep{Hayden13} have been seen to reduce this intrinsic scatter.
 
-The idea that these global properties directly affect the \sn{} is a bit of a
-stretch, so the community has started to look at the local environment around
+The idea that these global properties directly affect the \sn{} is too loose, so
+the community has started to look at the local environment around
 the \sn{}. \cite{Rigault13} looked at \sn{} form the Nearby Supernova Factory
 and the host galaxy's $\text{H}_{\alpha}$ within a 1 kpc radius of each \sn{}.
 They found a bias in the \sn{} standardized luminosity when they divided their
@@ -311,17 +320,16 @@ Hubble constant.
 
 I am currently working with Hubble Space Telescope (HST) images of host galaxies
 of \sn{} found during SDSS-II Supernova Survey
-\citep{2008AJ....135..338F,2008AJ....135..348S}. All the \sn{} were found in
-Stripe 82, $2.5^{\circ}$ wide and about $\sim120^{\circ}$ along the Celestial
-Equator. HST's small angular resolution allows for a much smaller definition of
-local environment. For a galaxy at $z = 0.1$ HST can get an environment of
-$\sim$160 pc, verses the 1 kpc that was used with {\it GALEX} data in
+\citep{2008AJ....135..338F,2008AJ....135..348S}. HST's small angular resolution
+allows for a much smaller definition of local environment. For a galaxy at $z =
+0.1$ HST provides a local environment on the scale of $\sim 160~\text{pc}$,
+verses the $1~\text{kpc}$ that was used with {\it GALEX} data in
 \cite{Jones15,Rigault15}. This can be seen in the comparison between SDSS
 (having a simpler angular resolution to {\it GALEX}) and HST images of the host
 galaxy of SN 2005fw seen in \Cref{f:galaxy-compare}.
 
 \begin{figure}
-	\includegraphics[width=3.2in]{SN2635-combined-inverted.pdf}
+	\includegraphics[width=3.5in]{SN2635-combined-inverted.pdf}
 	\caption{Host galaxy of SDSS SN2635 (SN 2005fw), at a redshift of $z=0.143$. HST 
 	(left) one pixel is $114~\text{pc}$, and SDSS (right) one pixel is $1,140~\text{pc}$.}
 	\label{f:galaxy-compare}
@@ -329,8 +337,8 @@ galaxy of SN 2005fw seen in \Cref{f:galaxy-compare}.
 
 This process is not new, but HST's resolution allows us to probe hosts at a
 higher redshift. These redshifts are needed because the residuals on the Hubble
-diagram will allow for analysis of systematics rather than bulk motion. The
-redshift range of SDSS-II Supernovae Survey is $z=0.05-0.4$. The HST
+diagram will allow for analysis of systematics and not be dominated by bulk
+motion. The redshift range of SDSS-II Supernovae Survey is $z=0.05-0.4$. The HST
 observations were taken in two filters, with $360~\text{second}$ exposures each.
 
 After processing and analysis, the HST images will produce several variables
@@ -340,7 +348,7 @@ correlations. The first of these variables being the \sn{}'s fractional pixel
 rank (FPR). The FPR is the ranked fraction, by brightness, of the pixel at the
 \sn{}'s position relative to the rest of the galaxy. This gives us a proxy for
 star formation. Another variable would be the color of the \sn{}'s pixel. Color
-can give a idea of the type of stars in that region. Further analysis of subsets
+can give a idea of the age of stars in that region. Further analysis of subsets
 can also be done and questions like whether there is a bias for \sn{} in clumpy
 regions of elliptical galaxies can be answered.
 
@@ -405,8 +413,6 @@ environment's effects on \sn{}.
 % simulate and fully understand what is knowable from future surveys like LSST.
 % The next step for \sn{} calibration is to more fully understand the local
 % environment.
-
-% \newpage
 
 \bibliographystyle{apj}
 \bibliography{2016-02-07-w-ResearchProposal}

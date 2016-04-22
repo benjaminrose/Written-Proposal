@@ -159,9 +159,9 @@ INPUT Kashlinsky2010.pdf
 INPUT ./Kashlinsky2010.pdf
 INPUT ./Kashlinsky2010.pdf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
-INPUT what_dataset_size_v_velocity.pdf
-INPUT ./what_dataset_size_v_velocity.pdf
-INPUT ./what_dataset_size_v_velocity.pdf
+INPUT what_dataset_size_v_velocity-2.pdf
+INPUT ./what_dataset_size_v_velocity-2.pdf
+INPUT ./what_dataset_size_v_velocity-2.pdf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT SN2635-combined-inverted.pdf
 INPUT ./SN2635-combined-inverted.pdf
